@@ -1,0 +1,23 @@
+.header{
+    grid-column: full-start/ col-end 10;
+
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    box-shadow: 0 4px 4px rgba(#000, .25);
+}
+.header_list{
+    list-style: none;
+    grid-column: 5/8;
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+    align-items: center;
+
+}
+.header_list a:link,
+.header_list:active{
+    text-decoration: none;
+    color: $color-grey-dark-2;
+    font-size: 1.2rem;
+}

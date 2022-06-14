@@ -1,0 +1,45 @@
+.works{
+    grid-column: col-start 1 / col-end 10;
+
+    display: grid;
+    grid-row-gap: 3rem;
+    //justify-items: center;
+    
+}
+
+.works h3{
+    justify-self: center;
+}
+
+.works-boxes{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(22rem, 1fr));
+    grid-gap: 2rem;
+
+
+}
+
+.works-box{
+    // overflow: hidden;
+    border-radius: 7px;
+
+    padding: 0 0 1rem 0;
+
+    background-color: $color-grey-dark-2;
+
+    display: grid;
+    justify-items: center;
+
+}
+
+// .works-img{
+//     // object-fit: cover;
+// }
+
+.button-works{
+    justify-self: end;
+}
+
+.button-works a{
+    font-size: 1.3rem;
+}
